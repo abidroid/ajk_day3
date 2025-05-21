@@ -1,5 +1,6 @@
 import 'package:ajk_day3/screens/icon_plus_images_demo_screen.dart';
 import 'package:ajk_day3/screens/profile_screen.dart';
+import 'package:ajk_day3/screens/simple_listview_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ProfileScreen(),
+      home: const SimpleListviewScreen(),
     );
   }
 }
